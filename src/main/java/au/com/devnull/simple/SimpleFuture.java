@@ -42,7 +42,6 @@ public class SimpleFuture<T, P> implements Future<T> {
         } finally {
             completed = true;
         }
-    //    if(listener!=null)
     }
 
     public boolean isCancelled() {
@@ -76,7 +75,7 @@ public class SimpleFuture<T, P> implements Future<T> {
 
     public T apply(P r) {
         if (call == null) {
-            return;
+            return null;
         }
 
         T t = this.call.apply(r);
