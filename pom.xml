@@ -4,7 +4,7 @@
     <groupId>biz.mofokom</groupId>
     <artifactId>simplefuture</artifactId>
     <packaging>jar</packaging>
-    <version xmlns:mvn="http://maven.apache.org/POM/4.0.0">1.0.0</version>
+    <version xmlns:mvn="http://maven.apache.org/POM/4.0.0">1.0.0-SNAPSHOT</version>
     <name>simplefuture</name>
     <url xmlns:mvn="http://maven.apache.org/POM/4.0.0">https://github.com/warrenc5/simplefuture</url>
     <description>A simple future implementation</description>
